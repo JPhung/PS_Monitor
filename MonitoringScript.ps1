@@ -32,7 +32,7 @@ function testConnection
 
 function targetOnline
 {
-    Send-MailMessage -To $script:Email_To -From $script:Email_From -Subject "ONLINE - $script:Email_Subject" -Body $script:Email_Body -SmtpServer $script:SMTPServer -Port $script:SMTPPort
+    #Send-MailMessage -To $script:Email_To -From $script:Email_From -Subject "ONLINE - $script:Email_Subject" -Body $script:Email_Body -SmtpServer $script:SMTPServer -Port $script:SMTPPort
 }
 
 function targetOffline
